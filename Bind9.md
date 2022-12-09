@@ -35,8 +35,9 @@ Then it will restart the BIND9 service to apply the changes.
 ```
 named-checkconf /etc/named.conf
 ```
+
 if there is no ouptput, configuration is fine
-```
+<br>
 Same in chroot environment :
 ```
 named-checkconf -t /var/named/chroot /etc/named.conf 
