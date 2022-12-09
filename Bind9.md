@@ -37,7 +37,8 @@ named-checkconf /etc/named.conf
 ```
 
 if there is no ouptput, configuration is fine
-<br>
+<br>  
+
 Same in chroot environment :
 ```
 named-checkconf -t /var/named/chroot /etc/named.conf 
